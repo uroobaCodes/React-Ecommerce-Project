@@ -1,0 +1,28 @@
+.logo {
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s linear;
+}
+
+@media screen and (min-width: 500px) {
+  .logo {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.cart-para {
+  padding: 0 6px;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* I will use this only for testing things out */
+/* I will use navwrapper for paddings nad margins of text-white class */
+.text-white {
+  color: red;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}

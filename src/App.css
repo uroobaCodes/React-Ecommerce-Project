@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+:root {
+  --font-oswald: "Oswald", serif;
+  --font-permanent-marker: "Permanent Marker", serif;
+  --mainBlue: #020239;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --disabledText: rgb(45, 37, 37);
+  --disabledBackground: rgb(210, 205, 205);
+  background-color: var(--mainWhite);
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: var(--mainWhite); */
+  color: var(--mainDark);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-background {
+  background-color: var(--mainWhite);
+}
+
+.text-title {
+  font-family: var(--font-permanent-marker);
+  letter-spacing: 0.3rem;
+  text-transform: capitalize;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+/* Cart item styles */
+/* .btn-black {
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: var(--mainDark);
+  border-radius: 0;
+} */
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
